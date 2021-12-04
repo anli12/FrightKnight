@@ -25,14 +25,8 @@ sudo apt-get install build-essential \
     libgtk-3-dev \
     libopenexr-dev \
     libilmbase23
-
 sudo apt-get clean
 pip3 install --upgrade picamera[array]  
-
-
-pip3 install dlib face_recognition RPi.GPIO
-pip3 install opencv-python==4.5.3.56
-
 
 
 #mkdir -p dlib
@@ -40,9 +34,6 @@ pip3 install opencv-python==4.5.3.56
 #cd ./dlib
 #sudo python3 setup.py install --compiler-flags "-mfpu=neon"
 
-#pip3 install face_recognition
+pip3 install dlib RPi.GPIO
+pip3 install opencv-python==4.5.3.56
 
-#git clone https://github.com/Itseez/opencv.git && cd opencv &&git checkout 3.0.0
-#pip3 install dlib face_recognition RPi.GPIO
-#pip3 install --upgrade setuptools pip
-#sudo pip install opencv-python

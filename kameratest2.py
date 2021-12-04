@@ -1,3 +1,5 @@
+#!/usr/bin/env phyton3
+
 import face_recognition
 import cv2
 from multiprocessing import Process, Manager, cpu_count, set_start_method
@@ -81,11 +83,10 @@ def process(worker_id, read_frame_list, write_frame_list, Global, worker_num):
 
         # Find all the faces and face encodings in the frame of video, cost most time
         face_locations = face_recognition.face_locations(rgb_frame)
-        #face_encodings = face_recognition.face_encodings(rgb_frame, face_locations)
+        face_encodings = face_recognition.face_encodings(rgb_frame, face_locations)
 
          # Loop through each face in this frame of video
-        #for (top, right, bottom, left), face_encoding in zip(face_locations, face_encodings):
-        for (top, right, bottom, left) in face_locations:
+        for (top, right, bottom, left), face_encoding in zip(face_locations, face_encodings):
             cv2.rectangle(frame_process, (left, top), (right, bottom), (0, 0, 255), 2)
         print(face_locations.__len__())
         
@@ -180,3 +181,4 @@ if __name__ == '__main__':
 
     # Quit
     cv2.destroyAllWindows()
+

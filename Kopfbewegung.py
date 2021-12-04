@@ -1,3 +1,5 @@
+#!/usr/bin/env phyton3
+
 import RPi.GPIO as GPIO
 import time
 
@@ -29,7 +31,7 @@ def kopfbewegung(posKopf, posPerson):
         x+=0.1
         f=parabel1*(x-t0)**2+posKopf
         print(f)
-        ppwm.ChangeDutyCycle(angle_to_percent(f))
+        pwm.ChangeDutyCycle(angle_to_percent(f))
         time.sleep(0.1)
 
     for i in range(0,5):
