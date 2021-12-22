@@ -1,8 +1,0 @@
-#/bin/bash
-
-pip3 install https://dl.google.com/coral/python/tflite_runtime-1.14.0-cp37-cp37m-linux_armv7l.whl
-
-wget -O sdk.tar.gz "https://xailient-training-bucket-prod.s3.amazonaws.com/xailient-train-aallgaier%40mail.hs-ulm.de/xailient-train-aallgaier-Model_11-28-20212021-11-28-19-13-14/sdk/CPP/xailient-linux-arm32-2.1.1.tar.gz?AWSAccessKeyId=ASIAZUZ2S3U5ATOQ6IUR&Signature=irMqKi46Z%2Fvi5xJ69x4rxYVQDqg%3D&x-amz-security-token=IQoJb3JpZ2luX2VjEJL%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJHMEUCIA4A0k69zNVTZLYYxxSOuqq%2BJORdN7tAACk5eLJ2dAX6AiEAxgSDHw6PPNVjnmTQZSgtFQ3AEKoTt57tzCiVbKNOw7kquwIIahABGgw2NjMxNTg0NDc0MTgiDC0w4ENcro2vZz9%2BgCqYAtedlCOPVgkpe1%2B2sgxedcdF2LBvO%2FQ8w1EObxEjFqjzVIRGwfFzI41P4NmEwI8gv1lbZJvizJzfPa6dwrzu1oQ0kiJoH3%2FqIJkzsnk00OPR6pFRnTkF3xH8A4k9Btn4jvnfbFLfr%2BqHrxIAGefyt%2B4dpqMlNwHbBl2hhsVtsPxnxnpIHVeLkvwKv%2Fq4%2FoJACIZ33Q3Wc4ZnrpLXFgjzeSKdoVricN5TfXj0j1uvac55y531FDvFD6xjlWDB%2BgrEo1nNXREnUNQAl4UxRYpN%2BPSKnRDuw2Dg7Uat5Dog3MtBi3wIW%2BSZYU0q4J%2BKSlqkgpTsNUesrme9ZoG1ktRxY7%2FfTjdUmtMrABj4kSc1mClLD1U3qLLksIcwnqWwjQY6mgHEyGnF8laPC8eC5vmr1ceR4%2F21tHEIsD0ksjY0Ae%2FEJxCGr7s9fUVj6tu9p46MNYm26%2BOwt7lD56PY94aTPSAkcLQDD7HVmng47HSKqVHb6v6Q1gZZDZHs4e4rv%2F111eVqLqLSK7MZTkBf0wNGL4Cgcfxug%2FGzx9jLESE91qmLjlco7HLMIVgCU620vM6AA6r5f4Wezmpbue5E&Expires=1638670514"
-
-Step 5 ???
-

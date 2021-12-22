@@ -1,1 +1,0 @@
-python3 detect_faces_video.py -p deploy.prototxt.txt -m res10_300x300_ssd_iter_140000.caffemodel
