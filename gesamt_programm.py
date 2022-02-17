@@ -103,11 +103,13 @@ def beindrehung():
     motor=4
     while True:
         if (angst==True) and (bein==60):
-            bein = bewege_beinkopf(motor,60, 0, delay=0.1)
+            bein = bewege_beinkopf(motor,60, 1, delay=0.1)
+            kit.servo[4].angle=5
             logging.debug("Bein dreht")
 
-        if (angst==False) and (bein==0):
-            bein = bewege_beinkopf(motor,0, 60, delay=0.5)
+        if (angst==False) and (bein==1):
+            bein = bewege_beinkopf(motor,1, 60, delay=0.5)
+            kit.servo[4].angle=50
             logging.debug("Bein dreht")
 
         time.sleep(0.01)
